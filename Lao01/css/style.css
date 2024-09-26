@@ -7,7 +7,11 @@ body{
 
 header{
     background: white;
+<<<<<<< HEAD
     color: white;
+=======
+    color: aliceblue;
+>>>>>>> d505ff250f3edd0254e6e73c0c904ce247fd2c93
     padding: 0px 0;
 }
 
@@ -35,14 +39,22 @@ header{
 }
 
 .hh3d ul li a{
+<<<<<<< HEAD
     color: blue;
+=======
+    color: rgb(233, 79, 79);
+>>>>>>> d505ff250f3edd0254e6e73c0c904ce247fd2c93
     text-decoration: none;
 }
 
 .hero{
     background: url("../images/hmm.jpg") no-repeat center/cover;
     color: white;
+<<<<<<< HEAD
     padding: 20%;
+=======
+    padding: 300px 50px;
+>>>>>>> d505ff250f3edd0254e6e73c0c904ce247fd2c93
     text-align: center;
 }
 
@@ -71,4 +83,8 @@ footer{
     border-radius: 10px;
     display: inline-block;
     margin-top: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d505ff250f3edd0254e6e73c0c904ce247fd2c93
