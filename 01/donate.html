@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="hh3d">
+            <a class="hnn" href="#"><img src="images/1.png" alt="Logo"></a>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="services.html">Thể loại</a></li>
+                <li><a href="login.html">Đăng nhập</a></li>
+                <li><a href="register.html">Đăng ký</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="donate-section">
+        <h1>Ủng Hộ Chúng Tôi</h1>
+        <p>Cảm ơn bạn đã quan tâm đến việc ủng hộ chúng tôi. Sự đóng góp của bạn sẽ giúp chúng tôi duy trì và phát triển dịch vụ.</p>
+        <form action="donate.php" method="post">
+            <div class="form-group">
+                <label for="name">Tên của bạn:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Số tiền ủng hộ (VND):</label>
+                <input type="number" id="amount" name="amount" min="1" required>
+            </div>
+            <button type="submit">Gửi Ủng Hộ</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Anime.vn</p>
+    </footer>
+</body>
+</html>

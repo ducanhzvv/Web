@@ -1,0 +1,222 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header{
+    background: white;
+    color: white;
+    padding: 0px 0;
+}
+
+.hh3d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hnn img{
+    height: 60px;
+    max-width: 100%;
+}
+
+.hh3d ul{
+    list-style: none;
+    display: flex;
+}
+
+.hh3d ul li{
+    margin-left: 20px;
+}
+
+.hh3d ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.hero{
+    background: url("../images/hmm.jpg") no-repeat center/cover;
+    color: white;
+    padding: 20%;
+    text-align: center;
+}
+
+.services{
+    padding: 40px 20px;
+}
+
+.services-iteam{
+    margin-bottom: 20px;
+}
+footer{
+    background: rgb(15, 15, 235);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /*display: inline-block;*/
+    margin-top: 20px;
+    text-align: center; /* Căn giữa nội dung văn bản */
+}
+
+.cn{
+    background: #007bff;
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Các phần còn lại của CSS... */
+
+.donate-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(223, 206, 206, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.donate-section h1 {
+    text-align: center;
+}
+
+.donate-section .form-group {
+    margin-bottom: 15px;
+}
+
+.donate-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.donate-section input[type="text"], .donate-section input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.donate-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.donate-section button:hover {
+    background-color: #0056b3;
+}
+/* Định dạng cho phần đăng nhập */
+.login-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Định dạng cho phần đăng ký */
+.login-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

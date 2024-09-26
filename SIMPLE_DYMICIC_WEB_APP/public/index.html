@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng với web động</title>
+</head>
+<body>
+    <h1>Nhập tên của bạn</h1>
+    <form id="myfrom">
+        <!-- nhan va truong nhap du lieu -->
+         <label for="name">Name: </label>
+         <input type="text" name="name" id="name" required>
+         <button type="submit">Gui</button>
+    </form>
+
+    <!-- Noi de hien thi phan hoi tu server -->
+     <p id="response"></p>
+
+    <!-- ma js xu ly su kien ng dung gui tai from -->
+    <script>
+        // lang nghe sk tu submit tren from
+        document.getElementById("myfrom").addEventListener("submit", async function (e) {
+            //ngan hanh vi mac dinh cua from, ngan vc tai lai trang
+            e.preventDefault();
+
+            // lay gia tri nhap tu truong name
+            const name = document.getElementById("name").value;
+
+            //gui lai yeu cau POST toi server tai router submit
+            const response = await fetch("/submit", {
+                method: "POST", //phuong thuc POST de gui du lieu
+                headers: {
+                    "Content-Type": "application/json",//dinh dang noi dung gui la JSON
+                },
+                body: JSON.stringify({ name: name }),//chuyen doi doi tuong chua ten thanh chuoi JSON
+            });
+            //nhan phan hoi tu sv
+            const data = await response.json();
+            //hien thi thong diep tu sv trong phan co id = response trong ma HTML o tren
+            document.getElementById("response").textContent = data.message;
+        });
+    </script>
+</body>
+</html>

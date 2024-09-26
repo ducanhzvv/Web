@@ -7,8 +7,8 @@ body{
 
 header{
     background: white;
-    color: aliceblue;
-    padding: 10px 0;
+    color: white;
+    padding: 0px 0;
 }
 
 .hh3d{
@@ -35,14 +35,14 @@ header{
 }
 
 .hh3d ul li a{
-    color: white;
+    color: blue;
     text-decoration: none;
 }
 
 .hero{
     background: url("../images/hmm.jpg") no-repeat center/cover;
     color: white;
-    padding: 100px 20px;
+    padding: 20%;
     text-align: center;
 }
 
@@ -54,20 +54,21 @@ header{
     margin-bottom: 20px;
 }
 footer{
-    background: rgb(96, 96, 228);
+    background: rgb(15, 15, 235);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     /*display: inline-block;*/
     margin-top: 20px;
+    text-align: center; /* Căn giữa nội dung văn bản */
 }
 
 .cn{
     background: #007bff;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 10px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
 }
